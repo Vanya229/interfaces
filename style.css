@@ -1,0 +1,46 @@
+
+.button
+{
+    background-color: #6665fe;
+    left:650px;
+    position: relative;
+    top:250px;
+    width: 246px;
+    height: 51px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.button:hover
+{
+    animation:10s scale infinite linear;
+}
+.button a
+{
+    display: block;
+    color:#fff;
+    font-family: TT Norms;
+    padding-top: 15px;
+    text-align: center;
+}
+.text-player
+{
+    display: inline-block;
+    font-size: 20px;
+    color:#fff;
+    font-family: TT Norms;
+    left:700px;
+    top:295px;
+    position: relative;
+}
+@keyframes scale{
+    0%{
+        transform: scale(0,0.0,0);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(0,0.0,0);
+    }
+    }
